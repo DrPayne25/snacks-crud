@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "snacks-crud"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Payne <81712870+DrPayne25@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0.3"
+django-environ = "^0.8.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
